@@ -100,17 +100,18 @@ Model sprężysto-plastyczny z umocnieniem:
 ![](./media/sprezystoplastycznyumocnienie.pdf)
 
 Stałe materiałowe:
+
 * Moduł Young'a - odkształcenie od naprężeń
 * Moduł plastyczności - odkształcenie od naprężeń przy uplastycznieniu
 * Liczba Poisson'a - stosunek odkształcenia poprzecznego do odkształcenia podłużnego przy osiowym stanie naprężenia
 * Moduł Kirchoff'a - odkształcenie postaciowe od naprężeń
 * Granica sprężystości
-  * Wyraźna
-  * Umowna (0.05%)
+    * Wyraźna
+    * Umowna (0.05%)
 * Granica plastyczności
-  * Górna
-  * Dolna
-  * Umowna (0.2%)
+    * Górna
+    * Dolna
+    * Umowna (0.2%)
 * Wytrzymałość doraźna
 
 ## Czyste zginanie
