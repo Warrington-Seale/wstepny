@@ -84,14 +84,19 @@ TODO
 
 ## Krzywe statycznego rozciągania, charakterystyczne parametry materiałowe
 Przykładowa rzeczywista:
+
 ![](./media/przykladowyrozciagania.pdf)
 Model sztywno-plastyczny:
+
 ![](./media/sztywnoplastyczny.pdf)
 Model sprężysto-plastyczny:
+
 ![](./media/sprezystoplastyczny.pdf)
 Model sztywno-plastyczny z umocnieniem:
+
 ![](./media/sztywnoplastycznyumocnienie.pdf)
 Model sprężysto-plastyczny z umocnieniem:
+
 ![](./media/sprezystoplastycznyumocnienie.pdf)
 
 Stałe materiałowe:
@@ -99,6 +104,14 @@ Stałe materiałowe:
 * Moduł plastyczności - odkształcenie od naprężeń przy uplastycznieniu
 * Liczba Poisson'a - stosunek odkształcenia poprzecznego do odkształcenia podłużnego przy osiowym stanie naprężenia
 * Moduł Kirchoff'a - odkształcenie postaciowe od naprężeń
+* Granica sprężystości
+  * Wyraźna
+  * Umowna (0.05%)
+* Granica plastyczności
+  * Górna
+  * Dolna
+  * Umowna (0.2%)
+* Wytrzymałość doraźna
 
 ## Czyste zginanie
 Naprężenia w odległości h od osi obojętnej
