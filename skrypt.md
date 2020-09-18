@@ -27,3 +27,10 @@ Przypadki szczególne:
 
 ## Warunki równowagi dowolnego układu sił
 $$\vec{W_g}=\sum_i\vec{P_i}=0\quad\land\quad\vec{M_g}=\sum_i\vec{M_i}=0$$
+
+## Chwilowy środek obrotu i przyspieszenia
+W ruchu płaskim istnieje punkt, którego prędkość jest równa zero. Jest to chwilowy środek prędkości.
+Z każdego położenia w inne położenie daje się przesunąć przez obrót dokoła punktu leżącego w tej płaszczyźnie, zwanego środkiem obrotu skończonego. W przypadku szczególnym, dla położeń w czasie $t$, oraz $t+dt$, gdzie $dt\to0$, środek obrotu skończonego nazywa się chwilowym środkiem obrotu.
+Dla translacji chwilowy środek obrotu leży w nieskończoności. W przypadku toczenia bez poślizgu chwilowy środek obrotu jest w punkcie styku.
+
+W ruchu płaskim istnieje punkt, którego przyspieszenie równa się zero. Jest to chwilowy środek przyspieszenia.
