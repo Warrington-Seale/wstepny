@@ -1,0 +1,2 @@
+#!/bin/bash
+pandoc -s -o skrypt.pdf skrypt.md --toc
