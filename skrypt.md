@@ -1,11 +1,12 @@
-Egzamin wstępny
-________________
-[[toc]]
+%Egzamin wstępny
+
 # Mechanika
+
 ## Własności pary sił
 Para sił to układ dwóch sił przyłożonych do danego ciała, równych sobie co do wartości i przeciwnie skierowanych, ale zaczepionych w różnych punktach ciała. Siła wypadkowa jest równa zeru.
 Moment pary sił równy jest iloczynowi wartości siły i odległości pomiędzy ich liniami działania
 $$\tau = \frac{P}{s}$$
+
 * Działanie pary sił na ciało sztywne nie ulegnie zmianie, gdy parę przesuniemy w dowolne położenie w jej płaszczyźnie działania.
 * Działanie pary sił na ciało sztywne nie ulegnie zmianie, gdy zmienimy siły pary i jej ramię tak, aby wektor momentu pary został niezmieniony.
 * Działanie pary sił na ciało sztywne nie ulegnie zmianie, gdy parę sił przesuniemy na płaszczyznę równoległą do jej płaszczyzny działania.
