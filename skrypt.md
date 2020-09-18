@@ -70,3 +70,12 @@ $$\Delta E_k = W$$
 $$\delta W = 0 $$
 * Zasada Lagrange'a
 $$\underset{zg.\,z\,w.}{\forall \delta x_i}\quad\delta W = \sum_iX_i\delta x_i = 0$$
+
+## Dynamiczne równania bryły w ruchu postępowym, obrotowym, płaskim i kulistym
+TODO
+
+##Energia kinetyczna bryły w ruchu postępowym, obrotowym, płaskim i kulistym
+TODO
+
+#Równania Lagrange'a I i II rodzaju
+TODO
