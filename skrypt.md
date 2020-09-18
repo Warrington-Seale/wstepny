@@ -26,3 +26,4 @@ Przypadki szczególne:
 5. $\vec{W_g}\neq0,\quad\vec{M_g}\neq0,\quad\vec{W_g}\not\parallel\vec{M_g},\quad\vec{W_g}\not\perp\vec{M_g}$ - układ redukuje się do skrętnika o osi odsuniętej od bieguna.
 
 ## Warunki równowagi dowolnego układu sił
+$$\vec{W_g}=\sum_i\vec{P_i}=0\quad\land\quad\vec{M_g}=\sum_i\vec{M_i}=0$$
