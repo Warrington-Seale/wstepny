@@ -50,3 +50,22 @@ $$\vec{a_b}=\vec{a_w}+\vec{a_u}+\vec{a_c}$$
 Przyśpieszenie **Coriolisa** jest podwojonym iloczynem wektorowym prędkości kątowej i prędkości względnej.
 $$\vec{a_c}=2\vec{\omega}\times\vec{v_w}$$
 $$\vec{a}\times\vec{b}=||\vec{a}||\cdot||\vec{b}||\cdot\sin\theta\cdot\vec{n}$$
+
+## Zasady dynamiki stosowane w dynamice układów punktów materialnych
+
+* Zasady dynamiki Newtona
+  1. W inercjalnym układzie odniesienia, jeśli na ciało nie działa żadna siła lub siły działające równoważą się, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.
+  2. W inercjalnym układzie odniesienia jeśli siły działające na ciało nie równoważą się (czyli wypadkowa sił $\vec {F}_{w}$ jest różna od zera), to ciało porusza się z przyspieszeniem wprost proporcjonalnym do siły wypadkowej, a odwrotnie proporcjonalnym do masy ciała.
+  3. Oddziaływania ciał są zawsze wzajemne. W inercjalnym układzie odniesienia siły wzajemnego oddziaływania dwóch ciał mają takie same wartości, taki sam kierunek, przeciwne zwroty i różne punkty przyłożenia (każda działa na inne ciało).
+* Zasada zachowania pędu
+$$\sum_i \vec{p_i} = idem,\quad \frac{d\vec{p}}{dt}=0$$
+* Zasada zachowania krętu
+$$\sum_i\vec{L_i}=idem,\quad\frac{d\vec{L}}{dt}=0$$
+* Zasada zachowania energii mechanicznej
+$$E_k+E_p = idem$$
+* Zasada równości energii kinetycznej i pracy
+$$\Delta E_k = W$$
+* Zasada d'Alemberta
+$$\delta W = 0 $$
+* Zasada Lagrange'a
+$$\underset{zg.\,z\,w.}{\forall \delta x_i}\quad\delta W = \sum_iX_i\delta x_i = 0$$
