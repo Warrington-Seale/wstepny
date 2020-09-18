@@ -74,8 +74,59 @@ $$\underset{zg.\,z\,w.}{\forall \delta x_i}\quad\delta W = \sum_iX_i\delta x_i =
 ## Dynamiczne równania bryły w ruchu postępowym, obrotowym, płaskim i kulistym
 TODO
 
-##Energia kinetyczna bryły w ruchu postępowym, obrotowym, płaskim i kulistym
+## Energia kinetyczna bryły w ruchu postępowym, obrotowym, płaskim i kulistym
 TODO
 
-#Równania Lagrange'a I i II rodzaju
+## Równania Lagrange'a I i II rodzaju
 TODO
+
+# Wytrzymałości materiałów
+
+## Krzywe statycznego rozciągania, charakterystyczne parametry materiałowe
+Przykładowa rzeczywista:
+![](./media/przykladowyrozciagania.pdf)
+Model sztywno-plastyczny:
+![](./media/sztywnoplastyczny.pdf)
+Model sprężysto-plastyczny:
+![](./media/sprezystoplastyczny.pdf)
+Model sztywno-plastyczny z umocnieniem:
+![](./media/sztywnoplastycznyumocnienie.pdf)
+Model sprężysto-plastyczny z umocnieniem:
+![](./media/sprezystoplastycznyumocnienie.pdf)
+
+Stałe materiałowe:
+* Moduł Young'a - odkształcenie od naprężeń
+* Moduł plastyczności - odkształcenie od naprężeń przy uplastycznieniu
+* Liczba Poisson'a - stosunek odkształcenia poprzecznego do odkształcenia podłużnego przy osiowym stanie naprężenia
+* Moduł Kirchoff'a - odkształcenie postaciowe od naprężeń
+
+## Czyste zginanie
+Naprężenia w odległości h od osi obojętnej
+$$\sigma(h) = \frac{M_g}{I}*h$$
+Naprężenia maksymalne
+$$\sigma_{max} = \frac{M_g}{W_g}$$
+Różniczkowe równanie linii ugięcia
+$$EI\frac{d^2y}{dz^2} = -M_g(z)$$
+Różniczkowe równanie kątu obrotu
+$$EI\frac{dy}{dz}= \int -M_g(z)dz+C$$
+Równanie linii ugięcia
+$$EIy = \int\int -M_g(z)dzdz +Cz +D$$
+C, D - stałe całkowania z warunków brzegowych
+
+## Skręcanie przekrojów kołowo-symetrycznych
+Naprężenia na promieniu r od osi głównej centralnej (Dla koła $I=\frac{\pi d^4}{32}$)
+$$\tau =\frac{M_s}{I_0}r$$
+Naprężenia maksymalne
+$$\tau_{max} = \frac{M_sD}{2I_0}$$
+
+Kąt skręcenia
+$$\alpha=\frac{M_sl}{GI}\quad \lor \alpha = \int_0^l\frac{M_s(x)}{GI}dx$$
+
+## Wytężenie materiału
+Hipotezy wytężeniowe - założenie dotyczące tego, jaka wielkość fizyczna związana ze stanem naprężenia i odkształcenia, decyduje o wytężeniu materiału
+* Galileusz: $\sigma_{red}=\sigma_1$, decyduje $\sigma_{max}$,
+* de Saint Venant: $\sigma_{red}=\sigma_1-\nu(\sigma_2+\sigma_3)$, decyduje max. $\varepsilon_{osiowe}$,
+* Tresci-Guest: $\sigma_{red}=\sigma_1-\sigma_3$, decyduje $\tau_{max}$
+* Huber-Mises-Hencky: $\sigma_{red}=\frac{1}{\sqrt{2}}\sqrt{(\sigma_1-\sigma_2)^2+(\sigma_2-\sigma_3)^2+(\sigma_1-\sigma_3)^2}$, decyduje energia właściwa odkształcenia postaciowego.
+
+Naprężenie zredukowane - taka wartość naprężenia, wyznaczona dla danego stanu naprężenia przy użyciu wybranej hipotezy, która przy jednoosiowym rozciąganiu, wywołałaby identyczne wytężenie.
